@@ -109,6 +109,3 @@ You can modify these parameters in `main.py`:
 - If responses are slow on first startup, the preloading should reduce this after initial load
 - Check the console for detailed logs on document retrieval and any errors
 
-## License
-
-[Insert License Information]
