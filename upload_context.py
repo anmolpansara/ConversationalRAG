@@ -15,10 +15,10 @@ PERSIST_DIRECTORY = "chroma_db"
 
 try:
     loader = WebBaseLoader(
-        web_paths=("https://lilianweng.github.io/posts/2023-06-23-agent/",),
+        web_paths=("",), # upload page url from the root
         bs_kwargs=dict(
             parse_only=bs4.SoupStrainer(
-                class_=("post-content", "post-title", "post-header")
+                class_=("post-content", "post-title", "post-header") # Adjust these classes based on your HTML structure
             )
         ),
     )
